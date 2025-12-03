@@ -10,8 +10,20 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Toronto·CA</p>
-
+    <div class="contact-items">
+      <p>
+        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        <span>Mail: <a href="mailto:you@example.com">you@example.com</a></span>
+      </p>
+      <p>
+        <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+        <span>CV: <a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">Download PDF</a></span>
+      </p>
+      <p>
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>Toronto, Canada</span>
+      </p>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
