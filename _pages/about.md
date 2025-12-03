@@ -10,54 +10,32 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <style>
-      .contact-items {
-        display: flex;
-        justify-content: space-between;
-        gap: 1.5rem;
-        margin-top: 0.75rem;
-      }
-      .contact-item {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 0.95rem;
-        line-height: 1.3;
-      }
-      .contact-item .contact-icon {
-        font-size: 2rem;
-        color: var(--global-theme-color, #444);
-        margin-bottom: 0.35rem;
-      }
-      .contact-item a {
-        color: inherit;
-        text-decoration: none;
-      }
-      .contact-item a:hover {
-        text-decoration: underline;
-      }
-    </style>
     <div class="contact-items">
-      <div class="contact-item">
-        <a class="contact-icon" href="mailto:yyl.liu@mail.utoronto.ca">
-          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-        </a>
-        <a href="mailto:yyl.liu@mail.utoronto.ca">yyl.liu@mail.utoronto.ca</a>
-      </div>
-      <div class="contact-item">
-        <a class="contact-icon" href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">
-          <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
-        </a>
-        <a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
-      </div>
-      <div class="contact-item">
-        <a class="contact-icon" href="https://maps.app.goo.gl/Lrc43SBnyXuLzT7g8" target="_blank" rel="noopener">
-          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-        </a>
-        <a href="https://maps.app.goo.gl/Lrc43SBnyXuLzT7g8" target="_blank" rel="noopener">Toronto, Canada</a>
-      </div>
+      <p>
+        <span>
+          <a href="mailto:yyl.liu@mail.utoronto.ca">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+        </span>
+
+      </p>
+      <p>
+        <span>
+          <a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+          </a>
+        </span>
+
+      </p>
+      
+      <p>
+        
+        <span>
+          <a href="https://maps.app.goo.gl/Lrc43SBnyXuLzT7g8">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          </a>
+        </span>
+      </p>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
