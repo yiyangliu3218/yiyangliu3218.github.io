@@ -12,13 +12,22 @@ profile:
   more_info: >
     <div class="contact-items">
       <p>
-        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-        <span>Mail: <a href="mailto:you@example.com">you@example.com</a></span>
+        <span>
+          <a href="mailto:yyl.liu@mail.utoronto.ca">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span><a href="mailto:yyl.liu@mail.utoronto.ca">yyl.liu@mail.utoronto.ca</a></span>
       </p>
       <p>
-        <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
-        <span>CV: <a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">Download PDF</a></span>
+        <span>
+          <a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span><a href="/assets/pdf/example_pdf.pdf" target="_blank" rel="noopener">CV</a></span>
       </p>
+      
       <p>
         <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
         <span>Toronto, Canada</span>
