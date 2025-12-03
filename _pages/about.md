@@ -29,8 +29,12 @@ profile:
       </p>
       
       <p>
-        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
-        <span>Toronto, Canada</span>
+        <span>
+          <a href="https://maps.app.goo.gl/Lrc43SBnyXuLzT7g8" target="_blank" rel="noopener">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span><a href="https://maps.app.goo.gl/Lrc43SBnyXuLzT7g8" target="_blank" rel="noopener">Toronto, Canada</a></span>
       </p>
     </div>
 
